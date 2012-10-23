@@ -24,6 +24,14 @@
 		BC97586F163724E6005EFD4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC975847163724E6005EFD4B /* Foundation.framework */; };
 		BC975877163724E6005EFD4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC975875163724E6005EFD4B /* InfoPlist.strings */; };
 		BC97587A163724E6005EFD4B /* iOS_AR_Practice_Ch_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC975879163724E6005EFD4B /* iOS_AR_Practice_Ch_01Tests.m */; };
+		BC97588716372BFC005EFD4B /* CameraUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BC97588616372BFC005EFD4B /* CameraUtils.m */; };
+		BC97588916372EAB005EFD4B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC97588816372EAB005EFD4B /* CoreLocation.framework */; };
+		BC97588C16372EDB005EFD4B /* MagnetometerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BC97588B16372EDB005EFD4B /* MagnetometerUtils.m */; };
+		BC97588F1637305E005EFD4B /* AVUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BC97588E1637305E005EFD4B /* AVUtils.m */; };
+		BC97589116373072005EFD4B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC97589016373072005EFD4B /* AVFoundation.framework */; };
+		BC975894163732F4005EFD4B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC975893163732F4005EFD4B /* MobileCoreServices.framework */; };
+		BC975897163734A4005EFD4B /* GyroscopeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BC975896163734A4005EFD4B /* GyroscopeUtils.m */; };
+		BC975899163734C9005EFD4B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC975898163734C9005EFD4B /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +68,19 @@
 		BC975876163724E6005EFD4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC975878163724E6005EFD4B /* iOS_AR_Practice_Ch_01Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_AR_Practice_Ch_01Tests.h; sourceTree = "<group>"; };
 		BC975879163724E6005EFD4B /* iOS_AR_Practice_Ch_01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_AR_Practice_Ch_01Tests.m; sourceTree = "<group>"; };
+		BC97588516372BFC005EFD4B /* CameraUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraUtils.h; sourceTree = "<group>"; };
+		BC97588616372BFC005EFD4B /* CameraUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraUtils.m; sourceTree = "<group>"; };
+		BC97588816372EAB005EFD4B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BC97588A16372EDB005EFD4B /* MagnetometerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnetometerUtils.h; sourceTree = "<group>"; };
+		BC97588B16372EDB005EFD4B /* MagnetometerUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnetometerUtils.m; sourceTree = "<group>"; };
+		BC97588D1637305D005EFD4B /* AVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVUtils.h; sourceTree = "<group>"; };
+		BC97588E1637305E005EFD4B /* AVUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVUtils.m; sourceTree = "<group>"; };
+		BC97589016373072005EFD4B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BC97589216373243005EFD4B /* DeviceVersionMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceVersionMacros.h; sourceTree = "<group>"; };
+		BC975893163732F4005EFD4B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BC975895163734A4005EFD4B /* GyroscopeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GyroscopeUtils.h; sourceTree = "<group>"; };
+		BC975896163734A4005EFD4B /* GyroscopeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GyroscopeUtils.m; sourceTree = "<group>"; };
+		BC975898163734C9005EFD4B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +88,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC975899163734C9005EFD4B /* CoreMotion.framework in Frameworks */,
+				BC975894163732F4005EFD4B /* MobileCoreServices.framework in Frameworks */,
+				BC97589116373072005EFD4B /* AVFoundation.framework in Frameworks */,
+				BC97588916372EAB005EFD4B /* CoreLocation.framework in Frameworks */,
 				BC975846163724E6005EFD4B /* UIKit.framework in Frameworks */,
 				BC975848163724E6005EFD4B /* Foundation.framework in Frameworks */,
 				BC97584A163724E6005EFD4B /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +114,10 @@
 		BC975836163724E5005EFD4B = {
 			isa = PBXGroup;
 			children = (
+				BC975898163734C9005EFD4B /* CoreMotion.framework */,
+				BC975893163732F4005EFD4B /* MobileCoreServices.framework */,
+				BC97589016373072005EFD4B /* AVFoundation.framework */,
+				BC97588816372EAB005EFD4B /* CoreLocation.framework */,
 				BC97584B163724E6005EFD4B /* iOS_AR_Practice_Ch_01 */,
 				BC975872163724E6005EFD4B /* iOS_AR_Practice_Ch_01Tests */,
 				BC975844163724E6005EFD4B /* Frameworks */,
@@ -119,6 +148,7 @@
 		BC97584B163724E6005EFD4B /* iOS_AR_Practice_Ch_01 */ = {
 			isa = PBXGroup;
 			children = (
+				BC97588316372BC4005EFD4B /* common */,
 				BC975854163724E6005EFD4B /* CRAppDelegate.h */,
 				BC975855163724E6005EFD4B /* CRAppDelegate.m */,
 				BC97585D163724E6005EFD4B /* MainStoryboard_iPhone.storyboard */,
@@ -161,6 +191,30 @@
 				BC975875163724E6005EFD4B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC97588316372BC4005EFD4B /* common */ = {
+			isa = PBXGroup;
+			children = (
+				BC97588416372BCC005EFD4B /* utils */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		BC97588416372BCC005EFD4B /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				BC97588516372BFC005EFD4B /* CameraUtils.h */,
+				BC97588616372BFC005EFD4B /* CameraUtils.m */,
+				BC97588A16372EDB005EFD4B /* MagnetometerUtils.h */,
+				BC97588B16372EDB005EFD4B /* MagnetometerUtils.m */,
+				BC97588D1637305D005EFD4B /* AVUtils.h */,
+				BC97588E1637305E005EFD4B /* AVUtils.m */,
+				BC97589216373243005EFD4B /* DeviceVersionMacros.h */,
+				BC975895163734A4005EFD4B /* GyroscopeUtils.h */,
+				BC975896163734A4005EFD4B /* GyroscopeUtils.m */,
+			);
+			name = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +332,10 @@
 				BC975852163724E6005EFD4B /* main.m in Sources */,
 				BC975856163724E6005EFD4B /* CRAppDelegate.m in Sources */,
 				BC975865163724E6005EFD4B /* CRViewController.m in Sources */,
+				BC97588716372BFC005EFD4B /* CameraUtils.m in Sources */,
+				BC97588C16372EDB005EFD4B /* MagnetometerUtils.m in Sources */,
+				BC97588F1637305E005EFD4B /* AVUtils.m in Sources */,
+				BC975897163734A4005EFD4B /* GyroscopeUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
