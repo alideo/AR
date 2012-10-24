@@ -33,6 +33,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Public Methods
+#pragma mark Dynamically generate a segmented control for changing map types
 - (void)setupSegmentedControl {
     buttonBarSegmentedControl = [[UISegmentedControl alloc] initWithItems:[NSArray
                                                                            arrayWithObjects:@"Standard", @"Satellite", @"Hybrid", nil]];
@@ -46,6 +48,8 @@
     [self.view addSubview:buttonBarSegmentedControl];
 }
 
+#pragma mark - Private Methods
+#pragma mark Display Map On Screen
 - (void)displayMap {
     CLLocationCoordinate2D coords;
     coords.latitude = 31.503538;
@@ -65,6 +69,7 @@
     [mapView setRegion:region animated:YES];
 }
 
+#pragma mark Handle segmented control change
 - (void)toggleToolBarChange:(id)sender
 {
     UISegmentedControl *segControl = sender;
@@ -87,6 +92,8 @@
     }
 }
 
+#pragma mark - Delegate Methods
+#pragma mark MKMapViewDelegate Method for Annotations View
 - (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>) annotation{
     MKPinAnnotationView *annView=[[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"MyPin"];
     annView.animatesDrop=TRUE;
