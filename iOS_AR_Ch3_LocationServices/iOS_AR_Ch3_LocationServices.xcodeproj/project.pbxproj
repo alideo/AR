@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC5458C1163887EA00A7261D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5458C0163887EA00A7261D /* MapKit.framework */; };
+		BC5458C616388F6500A7261D /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5458C516388F6500A7261D /* MapAnnotation.m */; };
 		BC9758AA1637369B005EFD4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9758A91637369B005EFD4B /* UIKit.framework */; };
 		BC9758AC1637369B005EFD4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9758AB1637369B005EFD4B /* Foundation.framework */; };
 		BC9758AE1637369B005EFD4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9758AD1637369B005EFD4B /* CoreGraphics.framework */; };
@@ -35,6 +37,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC5458C0163887EA00A7261D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BC5458C416388F6500A7261D /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		BC5458C516388F6500A7261D /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
 		BC9758A51637369B005EFD4B /* iOS_AR_Ch3_LocationServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_AR_Ch3_LocationServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9758A91637369B005EFD4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BC9758AB1637369B005EFD4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -78,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5458C1163887EA00A7261D /* MapKit.framework in Frameworks */,
 				BC9758F016373706005EFD4B /* CoreLocation.framework in Frameworks */,
 				BC9758EE163736FC005EFD4B /* AVFoundation.framework in Frameworks */,
 				BC9758EC163736F5005EFD4B /* MobileCoreServices.framework in Frameworks */,
@@ -91,9 +97,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC5458C316388F4800A7261D /* components */ = {
+			isa = PBXGroup;
+			children = (
+				BC5458C416388F6500A7261D /* MapAnnotation.h */,
+				BC5458C516388F6500A7261D /* MapAnnotation.m */,
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
 		BC97589A1637369B005EFD4B = {
 			isa = PBXGroup;
 			children = (
+				BC5458C0163887EA00A7261D /* MapKit.framework */,
 				BC9758EF16373706005EFD4B /* CoreLocation.framework */,
 				BC9758ED163736FC005EFD4B /* AVFoundation.framework */,
 				BC9758EB163736F5005EFD4B /* MobileCoreServices.framework */,
@@ -160,6 +176,7 @@
 		BC9758DA163736A5005EFD4B /* common */ = {
 			isa = PBXGroup;
 			children = (
+				BC5458C316388F4800A7261D /* components */,
 				BC9758DB163736B4005EFD4B /* utils */,
 			);
 			name = common;
@@ -261,6 +278,7 @@
 				BC9758E6163736CF005EFD4B /* MagnetometerUtils.m in Sources */,
 				BC9758E7163736CF005EFD4B /* AVUtils.m in Sources */,
 				BC9758E8163736CF005EFD4B /* GyroscopeUtils.m in Sources */,
+				BC5458C616388F6500A7261D /* MapAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +405,7 @@
 				BC9758D91637369C005EFD4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

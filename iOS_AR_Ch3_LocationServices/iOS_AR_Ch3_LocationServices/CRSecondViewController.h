@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface CRSecondViewController : UIViewController
+#define METERS_PER_MILE 1609.344
+
+@interface CRSecondViewController : UIViewController<MKMapViewDelegate>{
+    IBOutlet MKMapView *mapView;
+    UISegmentedControl *buttonBarSegmentedControl;
+}
+@property (nonatomic, retain) IBOutlet MKMapView *mapView;
+@property (nonatomic, retain) IBOutlet UISegmentedControl *buttonBarSegmentedControl;
+
+- (void)setupSegmentedControl;
 
 @end

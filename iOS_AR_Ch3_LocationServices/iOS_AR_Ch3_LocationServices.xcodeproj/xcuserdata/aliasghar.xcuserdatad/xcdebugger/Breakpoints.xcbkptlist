@@ -8,51 +8,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "iOS_AR_Ch3_LocationServices/CRFirstViewController.m"
-         timestampString = "372725203.913596"
+         timestampString = "372801906.538775"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "78"
-         endingLineNumber = "78"
-         landmarkName = "-locationManager:didUpdateLocations:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "iOS_AR_Ch3_LocationServices/CRFirstViewController.m"
-         timestampString = "372725386.652554"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "105"
-         endingLineNumber = "105"
-         landmarkName = "-locationManager:didEnterRegion:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "iOS_AR_Ch3_LocationServices/CRFirstViewController.m"
-         timestampString = "372725386.652554"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "110"
-         endingLineNumber = "110"
-         landmarkName = "-locationManager:didExitRegion:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "iOS_AR_Ch3_LocationServices/CRFirstViewController.m"
-         timestampString = "372725386.652554"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "111"
-         endingLineNumber = "111"
-         landmarkName = "-locationManager:didExitRegion:"
+         startingLineNumber = "47"
+         endingLineNumber = "47"
+         landmarkName = "-startStandardUpdates"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
